@@ -1,16 +1,59 @@
-# React + Vite
+## 🚀 About The Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**NexUI** bridges the gap between complex AI models and user-friendly design. While standard LLM interfaces can be sluggish, NexUI leverages the **Groq API** to deliver responses at speeds that feel instantaneous, wrapped in a beautiful, minimal UI designed with **Tailwind CSS**.
 
-Currently, two official plugins are available:
+**🚀 Live Demo:** [View the deployed application here](https://nex-ui.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Key Features
 
-## React Compiler
+* ⚡ **Real-time Inference:** Utilizes Groq's LPU (Language Processing Unit) for near-zero latency.
+* 🎨 **Adaptive UI:** Responsive design that works flawlessly on Mobile, Tablet, and Desktop.
+* 🔒 **Secure Environment:** Client-side API key handling via secure environment variables.
+* 🧠 **Context Aware:** Maintains conversation history for fluid interactions.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🛠️ Built With
 
-## Expanding the ESLint configuration
+* [![React][React.js]] (https://react.dev/)]
+* [![TailwindCSS][TailwindCSS]] (https://tailwindcss.com/)]
+* [![Groq][Groq-Badge]] (https://console.groq.com/keys)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚡ Getting Started
+
+Follow these simple steps to get a local copy up and running.
+
+### Prerequisites
+
+* **Node.js** (v14.0.0 or later)
+* **npm**
+    ```sh
+    npm install npm@latest -g
+    ```
+
+### Installation
+
+1.  **Clone the repository**
+    ```sh
+    git clone [https://github.com/sarthak2436/nexui.git](https://github.com/sarthak2436/nexui.git)
+    ```
+2.  **Navigate to the project directory**
+    ```sh
+    cd nexui
+    ```
+3.  **Install NPM packages**
+    ```sh
+    npm install
+    ```
+4.  **Set up your API Key**
+    * Get a free API Key at [https://console.groq.com/](https://console.groq.com/)
+    * Create a `.env` file in the root directory.
+    * Add your key (Important: Must use `REACT_APP_` prefix):
+    ```env
+    REACT_APP_GROQ_API_KEY=gsk_your_actual_api_key_here
+    ```
+
+5.  **Start the application**
+    ```sh
+    npm start
+    ```
